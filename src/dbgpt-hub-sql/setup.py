@@ -57,5 +57,5 @@ setup(
     packages=find_packages(exclude=excluded_packages),
     install_requires=setup_spec.install_requires,
     extras_require=setup_spec.unique_extras,
-    python_requires=">=3.10",
+    python_requires="=3.10",
 )
